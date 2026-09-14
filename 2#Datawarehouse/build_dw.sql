@@ -1,5 +1,5 @@
 
--- duckdb dw.duckdb -c ".read build_dw.sql"
+-- duckdb dw_marts.duckdb -c ".read build_dw.sql"
 
 -- step 1
 .read create_tables.sql
