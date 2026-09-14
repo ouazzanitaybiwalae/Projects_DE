@@ -10,3 +10,5 @@
 -- step 3: flat mart
 .read create_flatMart.sql
 
+-- step 4: skills mart
+.read create_skills_mart.sql
