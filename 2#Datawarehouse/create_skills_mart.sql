@@ -27,7 +27,7 @@ FROM skills_dim;
 -- ORDER BY month_start_date;
 
 CREATE TABLE skills_mart.dim_date_month (
-    month_start_date DATE PRIMARY KEY,
+    month_start_date TIMESTAMP PRIMARY KEY,
     year INTEGER,
     month INTEGER,
     quarter INTEGER,

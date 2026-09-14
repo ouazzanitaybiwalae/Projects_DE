@@ -12,3 +12,8 @@
 
 -- step 4: skills mart
 .read create_skills_mart.sql
+
+--step 5: priority roles
+.read create_priority_mart.sql
+
+.read update_priority_mart.sql
